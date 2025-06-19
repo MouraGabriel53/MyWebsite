@@ -16,7 +16,6 @@ const socialLinks = [
     {link: 'https://discord.gg/8pw7saGt', icon: DiscordIcon},
 ]
 
-
 export default function Home() {
     return (
         <>
@@ -25,7 +24,6 @@ export default function Home() {
                 <Title>Gabriel Moura</Title>
                 <MenuImg src={MenuIcon} alt="Menu Icon" />
             </Header>
-
             <ContentAll>
                 <Content>
                     <PerfilImg src={Photo} alt="Gabriel's photo" />
@@ -35,9 +33,7 @@ export default function Home() {
                         <TitleDescpt>Full stack Developer</TitleDescpt>
                     </ContentTitles>
                 </Content>
-
                 <Button></Button>
-
                 <ContentSocialLinks>
                     {
                         socialLinks.map((item) => (
