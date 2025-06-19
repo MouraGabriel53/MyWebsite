@@ -10,7 +10,7 @@ export const ButtonComp = styled.button`
 
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: var(--font-body);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;

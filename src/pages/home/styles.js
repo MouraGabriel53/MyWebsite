@@ -18,7 +18,7 @@ export const ContentAll = styled.div`
 export const Title = styled.p`
     color: var(--complement-two);
     text-align: center;
-    font-family: "Titillium Web";
+    font-family: var(--font-title);
     font-size: 20px;
     font-style: normal;
     font-weight: 900;
@@ -81,14 +81,14 @@ export const TitlesEffect = styled.div`
     filter: blur(50px);
 
     position: absolute;
+    z-index: 0;
 `
 
 export const TitleName = styled.h1`
-    margin: 0px;
-
+    z-index: 1;
     color: var(--primary);
     text-align: center;
-    font-family: "Titillium Web";
+    font-family: var(--font-title);
     font-size: 40px;
     font-style: normal;
     font-weight: 900;
@@ -96,11 +96,10 @@ export const TitleName = styled.h1`
 `
 
 export const TitleDescpt = styled.h2`
-    margin: 0px;
- 
+    z-index: 1;
     color: var(--complement-one);
     text-align: center;
-    font-family: "Titillium Web";
+    font-family: var(--font-body);
     font-size: 24px;
     font-style: normal;
     font-weight: 900;
