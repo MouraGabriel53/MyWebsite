@@ -16,7 +16,7 @@ export const ContentAll = styled.div`
 `
 
 export const Title = styled.p`
-    color: var(--Complementar-2, #9F5EFF);
+    color: var(--complement-two);
     text-align: center;
     font-family: "Titillium Web";
     font-size: 20px;
@@ -76,7 +76,7 @@ export const TitlesEffect = styled.div`
     height: 219.24px;
     transform: rotate(32.064deg);
 
-    background: var(--Sombra-Rozul, linear-gradient(180deg, #9F5EFF 0%, #0FF0FC 100%));
+    background: var(--special);
     opacity: 0.35;
     filter: blur(50px);
 
@@ -86,7 +86,7 @@ export const TitlesEffect = styled.div`
 export const TitleName = styled.h1`
     margin: 0px;
 
-    color: var(--Primria, #0FF0FC);
+    color: var(--primary);
     text-align: center;
     font-family: "Titillium Web";
     font-size: 40px;
@@ -98,7 +98,7 @@ export const TitleName = styled.h1`
 export const TitleDescpt = styled.h2`
     margin: 0px;
  
-    color: var(--Complementar-1, #F1F1F1);
+    color: var(--complement-one);
     text-align: center;
     font-family: "Titillium Web";
     font-size: 24px;

@@ -4,9 +4,9 @@ export const ButtonComp = styled.button`
     width: 300px;
     height: 50px;
 
-    border: 2px solid var(--Complementar-2, #9F5EFF);
+    border: 2px solid var(--complement-two);
     border-radius: 30px;
-    background: var(--Complementar-2, #9F5EFF);
+    background: var(--complement-two);
 
     color: #FFF;
     text-align: center;
