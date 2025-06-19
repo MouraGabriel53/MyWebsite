@@ -4,6 +4,7 @@ export const Header = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     gap: 20px;
 `
 export const ContentAll = styled.div`
@@ -11,7 +12,8 @@ export const ContentAll = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 30px;
+    padding: 10px;
     gap: 100px;
 `
 

@@ -13,7 +13,7 @@ export const Link = styled.a`
 
     &:hover{
         transition: 300ms;  
-        background: transparent;
+        background: var(--light-highlight);
     }
 
     transition: 300ms;
