@@ -9,6 +9,13 @@ import LinkedInIcon from '../../assets/linkedin-icon.svg'
 import GmailIcon from '../../assets/gmail-icon.svg'
 import DiscordIcon from '../../assets/discord-icon.svg'
 
+const socialLinks = [
+    {link: 'https://github.com/MouraGabriel53', icon: GitHubIcon},
+    {link: 'https://www.linkedin.com/in/gabrielnmoura/', icon: LinkedInIcon},
+    {link: 'mailto:contato.gabrielnmoura@gmail.com', icon: GmailIcon},
+    {link: 'https://discord.gg/8pw7saGt', icon: DiscordIcon},
+]
+
 
 export default function Home() {
     return (
@@ -32,10 +39,11 @@ export default function Home() {
                 <Button></Button>
 
                 <ContentSocialLinks>
-                        <BtnSocialMedia link ="https://github.com/MouraGabriel53" icon ={GitHubIcon}></BtnSocialMedia>
-                        <BtnSocialMedia link ="https://www.linkedin.com/in/gabrielnmoura/" icon ={LinkedInIcon}></BtnSocialMedia>
-                        <BtnSocialMedia link ="mailto:contato.gabrielnmoura@gmail.com" icon ={GmailIcon}></BtnSocialMedia>
-                        <BtnSocialMedia link ="https://discord.gg/8pw7saGt" icon ={DiscordIcon}></BtnSocialMedia>
+                    {
+                        socialLinks.map((item) => (
+                            <BtnSocialMedia link={item.link} icon={item.icon}></BtnSocialMedia>
+                        ))
+                    }
                 </ContentSocialLinks>
             </ContentAll>
          </>
